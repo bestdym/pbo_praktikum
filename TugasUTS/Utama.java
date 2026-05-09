@@ -22,9 +22,9 @@ public class Utama {
         System.out.println("Merk                  : " + motor.getMerk());
         System.out.println("Bahan Bakar           : " + motor.getBahanBakar());
         System.out.println("Spesifikasi Mesin :");
-        System.out.println("Jumlah Silinder       : " + motor.getMesin().getJumlahSilinder());       // ← pakai getter
-        System.out.println("Kapasitas Silinder    : " + motor.getMesin().getKapasitasSilinder() + " CC"); // ← pakai getter
-        System.out.println("Langkah               : " + motor.getMesin().getLangkah());               // ← pakai getter
+        System.out.println("Jumlah Silinder       : " + motor.getMesin().getJumlahSilinder());       
+        System.out.println("Kapasitas Silinder    : " + motor.getMesin().getKapasitasSilinder() + " CC"); 
+        System.out.println("Langkah               : " + motor.getMesin().getLangkah());               
 
         System.out.println();
 
@@ -39,8 +39,8 @@ public class Utama {
         System.out.println("Jumlah Pintu          : " + mobil.getJumlahPintu());
         System.out.println("Bahan Bakar           : " + mobil.getBahanBakar());
         System.out.println("Spesifikasi Mesin :");
-        System.out.println("Jumlah Silinder       : " + mobil.getMesin().getJumlahSilinder());       // ← pakai getter
-        System.out.println("Kapasitas Silinder    : " + mobil.getMesin().getKapasitasSilinder() + " CC"); // ← pakai getter
-        System.out.println("Langkah               : " + mobil.getMesin().getLangkah());               // ← pakai getter
+        System.out.println("Jumlah Silinder       : " + mobil.getMesin().getJumlahSilinder());       
+        System.out.println("Kapasitas Silinder    : " + mobil.getMesin().getKapasitasSilinder() + " CC");
+        System.out.println("Langkah               : " + mobil.getMesin().getLangkah());               
     }
 }
