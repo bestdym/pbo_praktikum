@@ -8,7 +8,7 @@ public class Utama {
 
         System.out.println("Nama    : Dimas Nurdiansyah");
         System.out.println("NIM     : 251110058\n");
-        System.out.println("DEALER JOGJA ISTIMEWA");         // ← fix typo DILLER → DEALER
+        System.out.println("DEALER JOGJA ISTIMEWA");         
         System.out.println("=".repeat(40));
 
         Mesin mesinMotor = new Mesin(1, 150.0, "2-Tak");
