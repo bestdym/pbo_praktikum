@@ -8,7 +8,7 @@ public class Utama {
 
         System.out.println("Nama    : Dimas Nurdiansyah");
         System.out.println("NIM     : 251110058\n");
-        System.out.println("DEALER JOGJA ISTIMEWA");
+        System.out.println("DEALER JOGJA ISTIMEWA");         // ← fix typo DILLER → DEALER
         System.out.println("=".repeat(40));
 
         Mesin mesinMotor = new Mesin(1, 150.0, "2-Tak");
@@ -22,12 +22,11 @@ public class Utama {
         System.out.println("Merk                  : " + motor.getMerk());
         System.out.println("Bahan Bakar           : " + motor.getBahanBakar());
         System.out.println("Spesifikasi Mesin :");
-        System.out.println("Jumlah Silinder       : " + motor.getMesin().jumlahSilinder);
-        System.out.println("Kapasitas Silinder    : " + motor.getMesin().kapasitasSilinder + " CC");
-        System.out.println("Langkah               : " + motor.getMesin().langkah);
+        System.out.println("Jumlah Silinder       : " + motor.getMesin().getJumlahSilinder());       // ← pakai getter
+        System.out.println("Kapasitas Silinder    : " + motor.getMesin().getKapasitasSilinder() + " CC"); // ← pakai getter
+        System.out.println("Langkah               : " + motor.getMesin().getLangkah());               // ← pakai getter
 
         System.out.println();
-
 
         Mesin mesinMobil = new Mesin(4, 1500.0, "4-Tak");
 
@@ -40,8 +39,8 @@ public class Utama {
         System.out.println("Jumlah Pintu          : " + mobil.getJumlahPintu());
         System.out.println("Bahan Bakar           : " + mobil.getBahanBakar());
         System.out.println("Spesifikasi Mesin :");
-        System.out.println("Jumlah Silinder       : " + mobil.getMesin().jumlahSilinder);
-        System.out.println("Kapasitas Silinder    : " + mobil.getMesin().kapasitasSilinder + " CC");
-        System.out.println("Langkah               : " + mobil.getMesin().langkah);
+        System.out.println("Jumlah Silinder       : " + mobil.getMesin().getJumlahSilinder());       // ← pakai getter
+        System.out.println("Kapasitas Silinder    : " + mobil.getMesin().getKapasitasSilinder() + " CC"); // ← pakai getter
+        System.out.println("Langkah               : " + mobil.getMesin().getLangkah());               // ← pakai getter
     }
 }
