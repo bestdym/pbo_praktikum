@@ -1,28 +1,26 @@
-
-
 class Mahasiswa extends Manusia
 {
     String nim;
-    
-    public Mahasiswa() {} // default constructor
+
+    public Mahasiswa() {} // default konstruktor
     public Mahasiswa(String nim, String nama)
     {
         this.nim = nim;
         this.nama = nama;
     }
-    
-    public void setNim(String nim)
+
+    public void setNIM(String nim)
     {
         this.nim = nim;
     }
-    
-    public String getNim()
+
+    public String getNIM()
     {
         return this.nim;
     }
 
-    public String getNama()
+    public void makan() //override dari Manusia
     {
-        return this.nama;
+        System.out.println("Mahasiswa makan di burjo");
     }
 }

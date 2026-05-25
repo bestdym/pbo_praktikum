@@ -59,7 +59,7 @@ public class MahasiswaReguler extends Mahasiswa {
         System.out.println("Nilai UTS     : " + nilaiUTS);
         System.out.println("Nilai UAS     : " + nilaiUAS);
         System.out.println("Nilai Tugas   : " + nilaiASN);
-        System.out.println("Nilai Akhir   : " + hitungNilaiAkhir());
+        System.out.println("Nilai Akhir   : " + String.format("%.2f", hitungNilaiAkhir()));
         System.out.println("Grade         : " + getGrade());
     }
 }

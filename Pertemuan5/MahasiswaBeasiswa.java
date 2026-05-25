@@ -23,7 +23,13 @@ public class MahasiswaBeasiswa extends MahasiswaReguler {
 
     @Override
     public void tampilInfo() {
-        super.tampilInfo();
-        System.out.println("Nilai Org     : " + nilaiOrganisasi);
+        System.out.println("NIM                 : " + getNim());
+        System.out.println("Nama                : " + getNama());
+        System.out.println("Nilai UTS           : " + getNilaiUTS());
+        System.out.println("Nilai UAS           : " + getNilaiUAS());
+        System.out.println("Nilai Tugas         : " + getNilaiASN());
+        System.out.println("Nilai Organisasi    : " + nilaiOrganisasi);
+        System.out.println("Nilai Akhir         : " + String.format("%.2f", hitungNilaiAkhir()));
+        System.out.println("Grade               : " + getGrade());
     }
 }
