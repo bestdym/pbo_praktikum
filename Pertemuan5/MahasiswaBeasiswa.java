@@ -16,7 +16,6 @@ public class MahasiswaBeasiswa extends MahasiswaReguler {
 
     @Override
     public double hitungNilaiAkhir() {
-        // WAJIB memanggil super.hitungNilaiAkhir() untuk mengambil hasil perhitungan dari kelas induk
         double nilaiReguler = super.hitungNilaiAkhir();
         return (nilaiReguler * 0.90) + (this.nilaiOrganisasi * 0.10);
     }

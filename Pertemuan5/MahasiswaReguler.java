@@ -1,7 +1,7 @@
 public class MahasiswaReguler extends Mahasiswa {
     private double nilaiUTS;
     private double nilaiUAS;
-    private double nilaiASN; // ASN/Tugas
+    private double nilaiASN;
 
     public MahasiswaReguler(String nim, String nama, double nilaiUTS, double nilaiUAS, double nilaiASN) {
         super(nim, nama);
