@@ -11,9 +11,9 @@ public class SistemPendaftaran {
         boolean running = true;
 
         while (running) {
-            System.out.println("\nSISTEM PENDAFTARAN MAHASISWA");
-            System.out.println("1. Daftarkan Mahasiswa (Reguler)");
-            System.out.println("2. Daftarkan Mahasiswa Informatika");
+            System.out.println("\nSISTEM PENDAFTARAN MAHASISWA MAGANG");
+            System.out.println("1. Daftarkan Mahasiswa Magang Reguler");
+            System.out.println("2. Daftarkan Mahasiswa Magang Informatika");
             System.out.println("3. Tampilkan Semua Data");
             System.out.println("4. Keluar");
             System.out.print("Pilih menu (1-4): ");
