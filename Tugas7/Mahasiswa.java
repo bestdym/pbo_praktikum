@@ -14,7 +14,7 @@ public class Mahasiswa extends Pengguna {
         System.out.println("Email : " + email);
         System.out.println("NIM   : " + nim);
         System.out.println("IPK   : " + ipk);
-        System.out.println("-------------------------");
+        System.out.println("=".repeat(45));
     }
 
     public String getNim() {
